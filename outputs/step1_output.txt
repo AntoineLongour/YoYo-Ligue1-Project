@@ -1,0 +1,108 @@
+competitions         65 rows | competition_id, competition_code, name, sub_type, type, country_id, country_name, domestic_league_code, confederation, total_clubs, url
+clubs               796 rows | club_id, club_code, name, domestic_competition_id, total_market_value, squad_size, average_age, foreigners_number, foreigners_percentage, national_team_players, stadium_name, stadium_seats, net_transfer_record, coach_name, last_season, filename, url
+games            88,958 rows | game_id, competition_id, season, round, date, home_club_id, away_club_id, home_club_goals, away_club_goals, home_club_position, away_club_position, home_club_manager_name, away_club_manager_name, stadium, attendance, referee, url, home_club_formation, away_club_formation, home_club_name, away_club_name, aggregate, competition_type
+transfers       175,165 rows | player_id, transfer_date, transfer_season, from_club_id, to_club_id, from_club_name, to_club_name, transfer_fee, market_value_in_eur, player_name
+valuations      656,301 rows | player_id, date, market_value_in_eur, current_club_name, current_club_id, player_club_domestic_competition_id
+
+Latest date in games.csv: 06 Jul 2026
+competition_id                  name            type           sub_type
+           FR1               ligue-1 domestic_league         first_tier
+          FRCH trophee-des-champions           other domestic_super_cup
+
+Leagues with match data: ['FR1'] | Domestic cups: []
+WARNING: no Ligue 2 (FR2) games in the data. A club-season outside Ligue 1 is read as 'Ligue 2 or lower', and Ligue 2-season KPIs will rely on transfers and valuations only.
+French clubs found in league + cup games: 36
+Analysis window: 2016/17 to 2025/26 (10 seasons)
+
+         l1_clubs  games_played  games_expected  match_pct  lineup_pct  transfers  fee_known_pct  fee_paid_pct  fees_eur_m  players_valued  clubs_valued  val_club_match                   note
+season                                                                                                                                                                                         
+2016/17        20           380             380       1.00         1.0        284           0.77          0.26      457.02             986            35            0.65                       
+2017/18        20           380             380       1.00         1.0        340           0.84          0.27     1000.32             916            36            0.72                       
+2018/19        20           380             380       1.00         1.0        407           0.86          0.29     1146.77            1049            36            0.71                       
+2019/20        20           279             380       0.73         1.0        488           0.85          0.33     1481.03            1022            36            0.78  COVID stop (round 28)
+2020/21        20           380             380       1.00         1.0        511           0.83          0.20      730.64            1151            36            0.78                       
+2021/22        20           380             380       1.00         1.0        566           0.83          0.24      883.27            1211            36            0.84                       
+2022/23        20           380             380       1.00         1.0        784           0.85          0.22     1374.11            1183            36            0.80                       
+2023/24        18           306             306       1.00         1.0        782           0.85          0.29     1979.60             824            35            0.79                       
+2024/25        18           306             306       1.00         1.0        778           0.83          0.23     1726.90             600            34            0.79                       
+2025/26        18           306             306       1.00         1.0        808           0.85          0.28     1863.40             575            31            0.86                       
+cohort
+Stable Ligue 1              12
+Yo-Yo                        7
+Promoted, then relegated     7
+Fallen from Ligue 1          5
+Not classified yet           1
+Ligue 2 / Cup-only           0 
+
+Timeline: one character per season, 2016/17 to 2025/26  (■ = Ligue 1, · = not in Ligue 1)
+
+                 club   timeline  l1_seasons  promotions  relegations                   cohort                            cohort_detail
+            AS Monaco ■■■■■■■■■■          10           0            0           Stable Ligue 1                    Core: L1 every season
+  Olympique Marseille ■■■■■■■■■■          10           0            0           Stable Ligue 1                    Core: L1 every season
+     Stade Rennais FC ■■■■■■■■■■          10           0            0           Stable Ligue 1                    Core: L1 every season
+             OGC Nice ■■■■■■■■■■          10           0            0           Stable Ligue 1                    Core: L1 every season
+  Paris Saint-Germain ■■■■■■■■■■          10           0            0           Stable Ligue 1                    Core: L1 every season
+            FC Nantes ■■■■■■■■■■          10           0            0           Stable Ligue 1                    Core: L1 every season
+       Olympique Lyon ■■■■■■■■■■          10           0            0           Stable Ligue 1                    Core: L1 every season
+           LOSC Lille ■■■■■■■■■■          10           0            0           Stable Ligue 1                    Core: L1 every season
+ RC Strasbourg Alsace ·■■■■■■■■■           9           1            0           Stable Ligue 1                Promoted, then stabilised
+    Stade Brestois 29 ···■■■■■■■           7           1            0           Stable Ligue 1                Promoted, then stabilised
+              RC Lens ····■■■■■■           6           1            0           Stable Ligue 1                Promoted, then stabilised
+          Le Havre AC ·······■■■           3           1            0           Stable Ligue 1                Promoted, then stabilised
+           Angers SCO ■■■■■■■·■■           9           1            1                    Yo-Yo                     2 separate L1 spells
+          FC Toulouse ■■■■··■■■■           8           1            1                    Yo-Yo                     2 separate L1 spells
+              FC Metz ■■·■■■·■·■           7           4            3                    Yo-Yo                     4 separate L1 spells
+     AS Saint-Étienne ■■■■■■··■·           7           1            2                    Yo-Yo                     2 separate L1 spells
+           FC Lorient ■···■■■■·■           6           2            2                    Yo-Yo                     3 separate L1 spells
+           AJ Auxerre ······■·■■           3           2            1                    Yo-Yo                     2 separate L1 spells
+         ESTAC Troyes ·■···■■···           3           2            2                    Yo-Yo                     2 separate L1 spells
+          Stade Reims ··■■■■■■■·           7           1            1 Promoted, then relegated         7 L1 season(s) before going down
+            Dijon FCO ■■■■■·····           5           1            1 Promoted, then relegated         5 L1 season(s) before going down
+      Nîmes Olympique ··■■■·····           3           1            1 Promoted, then relegated         3 L1 season(s) before going down
+            Amiens SC ·■■■······           3           1            1 Promoted, then relegated         3 L1 season(s) before going down
+     Clermont Foot 63 ·····■■■··           3           1            1 Promoted, then relegated         3 L1 season(s) before going down
+           AC Ajaccio ······■···           1           1            1 Promoted, then relegated         1 L1 season(s) before going down
+    AS Nancy-Lorraine ■·········           1           1            1 Promoted, then relegated         1 L1 season(s) before going down
+      Montpellier HSC ■■■■■■■■■·           9           0            1      Fallen from Ligue 1 Established L1 club, relegated, not back
+FC Girondins Bordeaux ■■■■■■····           6           0            1      Fallen from Ligue 1 Established L1 club, relegated, not back
+          EA Guingamp ■■■·······           3           0            1      Fallen from Ligue 1 Established L1 club, relegated, not back
+              SM Caen ■■■·······           3           0            1      Fallen from Ligue 1 Established L1 club, relegated, not back
+            SC Bastia ■·········           1           0            1      Fallen from Ligue 1 Established L1 club, relegated, not back
+             Paris FC ·········■           1           1            0       Not classified yet     Promoted, only 1 L1 season(s) so far
+
+Ligue 2 / Cup-only clubs: 0
+Reconciliation: 25 promotions in the cohort table vs 25 promotion events -> OK
+
+Promotion events in the window: 25
+outcome_year_1
+Survived                             16
+Relegated                             6
+Unknown (next season not in data)     3 
+
+season_label                 club                    outcome_year_1
+     2016/17    AS Nancy-Lorraine                         Relegated
+     2016/17            Dijon FCO                          Survived
+     2016/17              FC Metz                          Survived
+     2017/18            Amiens SC                          Survived
+     2017/18         ESTAC Troyes                         Relegated
+     2017/18 RC Strasbourg Alsace                          Survived
+     2018/19      Nîmes Olympique                          Survived
+     2018/19          Stade Reims                          Survived
+     2019/20              FC Metz                          Survived
+     2019/20    Stade Brestois 29                          Survived
+     2020/21           FC Lorient                          Survived
+     2020/21              RC Lens                          Survived
+     2021/22     Clermont Foot 63                          Survived
+     2021/22         ESTAC Troyes                          Survived
+     2022/23           AC Ajaccio                         Relegated
+     2022/23           AJ Auxerre                         Relegated
+     2022/23          FC Toulouse                          Survived
+     2023/24              FC Metz                         Relegated
+     2023/24          Le Havre AC                          Survived
+     2024/25           AJ Auxerre                          Survived
+     2024/25     AS Saint-Étienne                         Relegated
+     2024/25           Angers SCO                          Survived
+     2025/26           FC Lorient Unknown (next season not in data)
+     2025/26              FC Metz Unknown (next season not in data)
+     2025/26             Paris FC Unknown (next season not in data)
+Saved 5 files to C:\AlbertSchool\Hackathon\YoYo League Project\outputs

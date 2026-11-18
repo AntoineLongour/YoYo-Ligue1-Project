@@ -1,0 +1,19 @@
+# Raw Kaggle data: too large for GitHub, link to the dataset in the README instead
+data/
+
+# Python virtual environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter / VS Code
+.ipynb_checkpoints/
+.vscode/
+
+# Local secrets (never commit)
+.env
+
+# OS clutter
+.DS_Store
+Thumbs.db

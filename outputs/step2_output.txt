@@ -1,0 +1,96 @@
+Window: 2016/17 to 2025/26 (320 club-seasons) | League panel: 2012/13 to 2025/26
+2025/26 outcome: relegated directly = FC Metz, FC Nantes | play-off = OGC Nice (stayed up)
+Reconciliation: 25 promotions in the window vs 25 in Step 1 -> OK | total promotion events in the panel: 34
+Saved: league panel (274, 31), master table (320, 33), promotion events (34, 33)
+
+1) Computed league tables (* = inside the analysis window)
+   2012/13  champion: Paris Saint-Germain    bottom 3: AS Nancy-Lorraine, ESTAC Troyes, Stade Brestois 29
+   2013/14  champion: Paris Saint-Germain    bottom 3: FC Sochaux-Montbéliard, Valenciennes FC, AC Ajaccio
+   2014/15  champion: Paris Saint-Germain    bottom 3: Thonon Évian Grand Genève FC, FC Metz, RC Lens
+   2015/16  champion: Paris Saint-Germain    bottom 3: Stade Reims, GFC Ajaccio, ESTAC Troyes
+  *2016/17  champion: AS Monaco              bottom 3: FC Lorient, AS Nancy-Lorraine, SC Bastia
+  *2017/18  champion: Paris Saint-Germain    bottom 3: FC Toulouse, ESTAC Troyes, FC Metz
+  *2018/19  champion: Paris Saint-Germain    bottom 3: Dijon FCO, SM Caen, EA Guingamp
+  *2019/20  champion: Paris Saint-Germain    bottom 3: Nîmes Olympique, Amiens SC, FC Toulouse
+  *2020/21  champion: LOSC Lille             bottom 3: FC Nantes, Nîmes Olympique, Dijon FCO
+  *2021/22  champion: Paris Saint-Germain    bottom 3: AS Saint-Étienne, FC Metz, FC Girondins Bordeaux
+  *2022/23  champion: Paris Saint-Germain    bottom 3: AC Ajaccio, ESTAC Troyes, Angers SCO
+  *2023/24  champion: Paris Saint-Germain    bottom 3: FC Lorient, FC Metz, Clermont Foot 63
+  *2024/25  champion: Paris Saint-Germain    bottom 3: Stade Reims, AS Saint-Étienne, Montpellier HSC
+  *2025/26  champion: Paris Saint-Germain    bottom 3: OGC Nice, FC Nantes, FC Metz
+
+2) Squad KPIs by season (median Ligue 1 club)
+          coverage_med  coverage_min  players_used  xi_value_m  avg_age  new_signings_min_pct  transfers_in
+ 2012/13          1.00          0.98          28.0       23.80    26.57                  0.03           2.0
+ 2013/14          1.00          0.96          28.0       30.57    26.54                  0.09           3.5
+ 2014/15          1.00          0.94          27.0       23.87    26.35                  0.08           4.0
+ 2015/16          1.00          1.00          30.0       23.57    26.75                  0.13           5.0
+*2016/17          1.00          0.97          28.5       23.68    26.65                  0.13           7.0
+*2017/18          1.00          0.97          26.5       24.39    26.55                  0.17           8.0
+*2018/19          1.00          0.98          28.0       42.44    26.03                  0.24          10.0
+*2019/20          1.00          0.99          27.0       56.16    26.03                  0.29          12.5
+*2020/21          1.00          0.96          29.0       49.99    25.87                  0.22          12.0
+*2021/22          1.00          0.98          26.0       54.16    25.98                  0.30          14.0
+*2022/23          1.00          0.97          29.5       63.30    26.29                  0.37          18.0
+*2023/24          1.00          0.98          29.5       56.28    26.08                  0.38          18.5
+*2024/25          0.99          0.86          30.5       72.41    26.19                  0.32          17.0
+*2025/26          1.00          0.96          30.5       58.70    26.17                  0.45          21.5
+
+3) Biggest recorded incoming fee per season
+   2012/13  Thiago Silva             to PSG                      €42.0M
+   2013/14  Edinson Cavani           to PSG                      €64.5M
+   2014/15  Bernardo Silva           to Monaco                   €15.8M
+   2015/16  Ángel Di María           to PSG                      €63.0M
+   2016/17  Gonçalo Guedes           to PSG                      €30.0M
+   2017/18  Neymar                   to PSG                      €222.0M
+   2018/19  Kylian Mbappé            to PSG                      €180.0M
+   2019/20  Wissam Ben Yedder        to Monaco                   €40.0M
+   2020/21  Mauro Icardi             to PSG                      €50.0M
+   2021/22  Achraf Hakimi            to PSG                      €68.0M
+   2022/23  Vitinha                  to PSG                      €41.5M
+   2023/24  Randal Kolo Muani        to PSG                      €95.0M
+   2024/25  Khvicha Kvaratskhelia    to PSG                      €80.0M
+   2025/26  Ilya Zabarnyi            to PSG                      €63.0M
+
+4) Share of missing values by division (master table)
+                  ppg  xi_value_m  avg_age  turnover_index  net_spend_pctile  tag_value_m
+division                                                                                 
+Ligue 1           0.0         0.0      0.0             0.0               0.0         0.00
+Ligue 2 or lower  1.0         1.0      1.0             1.0               1.0         0.03
+
+5) Promotion events (* = inside the analysis window)
+  season                 club  squad_value_index  valuation_coverage  rank   outcome
+ 2013/14          EA Guingamp               0.32                1.00    16  Survived
+ 2013/14            FC Nantes               0.45                1.00    11  Survived
+ 2013/14            AS Monaco               3.55                1.00     2  Survived
+ 2014/15              SM Caen               0.47                1.00    13  Survived
+ 2014/15              FC Metz               0.47                1.00    19 Relegated
+ 2014/15              RC Lens               0.48                0.99    20 Relegated
+ 2015/16          GFC Ajaccio               0.29                1.00    19 Relegated
+ 2015/16           Angers SCO               0.40                1.00     9  Survived
+ 2015/16         ESTAC Troyes               0.45                1.00    20 Relegated
+*2016/17            Dijon FCO               0.44                1.00    16  Survived
+*2016/17    AS Nancy-Lorraine               0.45                1.00    19 Relegated
+*2016/17              FC Metz               0.50                1.00    14  Survived
+*2017/18 RC Strasbourg Alsace               0.40                1.00    15  Survived
+*2017/18         ESTAC Troyes               0.47                1.00    19 Relegated
+*2017/18            Amiens SC               0.52                1.00    13  Survived
+*2018/19      Nîmes Olympique               0.49                1.00     9  Survived
+*2018/19          Stade Reims               0.53                0.98     8  Survived
+*2019/20    Stade Brestois 29               0.36                1.00    14  Survived
+*2019/20              FC Metz               0.44                1.00    15  Survived
+*2020/21           FC Lorient               0.40                1.00    16  Survived
+*2020/21              RC Lens               0.45                1.00     7  Survived
+*2021/22     Clermont Foot 63               0.29                1.00    17  Survived
+*2021/22         ESTAC Troyes               0.43                1.00    15  Survived
+*2022/23           AC Ajaccio               0.17                0.97    18 Relegated
+*2022/23          FC Toulouse               0.35                1.00    13  Survived
+*2022/23           AJ Auxerre               0.38                1.00    17 Relegated
+*2023/24              FC Metz               0.33                1.00    17 Relegated
+*2023/24          Le Havre AC               0.49                1.00    15  Survived
+*2024/25           Angers SCO               0.21                0.97    14  Survived
+*2024/25     AS Saint-Étienne               0.30                0.86    17 Relegated
+*2024/25           AJ Auxerre               0.48                0.97    11  Survived
+*2025/26              FC Metz               0.48                0.96    18 Relegated
+*2025/26           FC Lorient               0.55                1.00    10  Survived
+*2025/26             Paris FC               0.97                0.99    11  Survived

@@ -1,0 +1,7 @@
+# Install with:  pip install -r requirements.txt
+pandas>=2.2        # data wrangling (Step 1 tested on pandas 2.2 and 3.0)
+numpy>=1.26        # numerical helpers
+matplotlib>=3.8    # charts (Steps 3-4)
+seaborn>=0.13      # statistical charts (Steps 3-4)
+scipy>=1.11        # statistical tests between cohorts (Step 3)
+ipykernel>=6.29    # lets VS Code run the "# %%" cells in the Interactive Window

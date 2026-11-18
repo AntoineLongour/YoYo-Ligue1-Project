@@ -1,0 +1,26 @@
+club_id,season,outcome_year_1,club,season_label
+290,2022,Relegated,AJ Auxerre,2022/23
+290,2024,Survived,AJ Auxerre,2024/25
+347,2016,Survived,FC Metz,2016/17
+347,2019,Survived,FC Metz,2019/20
+347,2023,Relegated,FC Metz,2023/24
+347,2025,Unknown (next season not in data),FC Metz,2025/26
+415,2022,Survived,FC Toulouse,2022/23
+618,2024,Relegated,AS Saint-Étienne,2024/25
+667,2017,Survived,RC Strasbourg Alsace,2017/18
+738,2023,Survived,Le Havre AC,2023/24
+826,2020,Survived,RC Lens,2020/21
+1095,2017,Relegated,ESTAC Troyes,2017/18
+1095,2021,Survived,ESTAC Troyes,2021/22
+1147,2022,Relegated,AC Ajaccio,2022/23
+1158,2020,Survived,FC Lorient,2020/21
+1158,2025,Unknown (next season not in data),FC Lorient,2025/26
+1159,2016,Relegated,AS Nancy-Lorraine,2016/17
+1160,2018,Survived,Nîmes Olympique,2018/19
+1416,2017,Survived,Amiens SC,2017/18
+1420,2024,Survived,Angers SCO,2024/25
+1421,2018,Survived,Stade Reims,2018/19
+2969,2016,Survived,Dijon FCO,2016/17
+3524,2021,Survived,Clermont Foot 63,2021/22
+3911,2019,Survived,Stade Brestois 29,2019/20
+10004,2025,Unknown (next season not in data),Paris FC,2025/26

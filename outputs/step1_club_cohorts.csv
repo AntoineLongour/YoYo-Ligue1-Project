@@ -1,0 +1,33 @@
+club_id,club,timeline,l1_seasons,promotions,relegations,l1_spells,switches,cohort,cohort_detail,in_comparison
+40,FC Girondins Bordeaux,■■■■■■····,6,0,1,1,1,Fallen from Ligue 1,"Established L1 club, relegated, not back",True
+162,AS Monaco,■■■■■■■■■■,10,0,0,1,0,Stable Ligue 1,Core: L1 every season,True
+244,Olympique Marseille,■■■■■■■■■■,10,0,0,1,0,Stable Ligue 1,Core: L1 every season,True
+273,Stade Rennais FC,■■■■■■■■■■,10,0,0,1,0,Stable Ligue 1,Core: L1 every season,True
+290,AJ Auxerre,······■·■■,3,2,1,2,3,Yo-Yo,2 separate L1 spells,True
+347,FC Metz,■■·■■■·■·■,7,4,3,4,7,Yo-Yo,4 separate L1 spells,True
+415,FC Toulouse,■■■■··■■■■,8,1,1,2,2,Yo-Yo,2 separate L1 spells,True
+417,OGC Nice,■■■■■■■■■■,10,0,0,1,0,Stable Ligue 1,Core: L1 every season,True
+583,Paris Saint-Germain,■■■■■■■■■■,10,0,0,1,0,Stable Ligue 1,Core: L1 every season,True
+595,SC Bastia,■·········,1,0,1,1,1,Fallen from Ligue 1,"Established L1 club, relegated, not back",True
+618,AS Saint-Étienne,■■■■■■··■·,7,1,2,2,3,Yo-Yo,2 separate L1 spells,True
+667,RC Strasbourg Alsace,·■■■■■■■■■,9,1,0,1,1,Stable Ligue 1,"Promoted, then stabilised",True
+738,Le Havre AC,·······■■■,3,1,0,1,1,Stable Ligue 1,"Promoted, then stabilised",True
+826,RC Lens,····■■■■■■,6,1,0,1,1,Stable Ligue 1,"Promoted, then stabilised",True
+855,EA Guingamp,■■■·······,3,0,1,1,1,Fallen from Ligue 1,"Established L1 club, relegated, not back",True
+969,Montpellier HSC,■■■■■■■■■·,9,0,1,1,1,Fallen from Ligue 1,"Established L1 club, relegated, not back",True
+995,FC Nantes,■■■■■■■■■■,10,0,0,1,0,Stable Ligue 1,Core: L1 every season,True
+1041,Olympique Lyon,■■■■■■■■■■,10,0,0,1,0,Stable Ligue 1,Core: L1 every season,True
+1082,LOSC Lille,■■■■■■■■■■,10,0,0,1,0,Stable Ligue 1,Core: L1 every season,True
+1095,ESTAC Troyes,·■···■■···,3,2,2,2,4,Yo-Yo,2 separate L1 spells,True
+1147,AC Ajaccio,······■···,1,1,1,1,2,"Promoted, then relegated",1 L1 season(s) before going down,True
+1158,FC Lorient,■···■■■■·■,6,2,2,3,4,Yo-Yo,3 separate L1 spells,True
+1159,AS Nancy-Lorraine,■·········,1,1,1,1,2,"Promoted, then relegated",1 L1 season(s) before going down,True
+1160,Nîmes Olympique,··■■■·····,3,1,1,1,2,"Promoted, then relegated",3 L1 season(s) before going down,True
+1162,SM Caen,■■■·······,3,0,1,1,1,Fallen from Ligue 1,"Established L1 club, relegated, not back",True
+1416,Amiens SC,·■■■······,3,1,1,1,2,"Promoted, then relegated",3 L1 season(s) before going down,True
+1420,Angers SCO,■■■■■■■·■■,9,1,1,2,2,Yo-Yo,2 separate L1 spells,True
+1421,Stade Reims,··■■■■■■■·,7,1,1,1,2,"Promoted, then relegated",7 L1 season(s) before going down,True
+2969,Dijon FCO,■■■■■·····,5,1,1,1,2,"Promoted, then relegated",5 L1 season(s) before going down,True
+3524,Clermont Foot 63,·····■■■··,3,1,1,1,2,"Promoted, then relegated",3 L1 season(s) before going down,True
+3911,Stade Brestois 29,···■■■■■■■,7,1,0,1,1,Stable Ligue 1,"Promoted, then stabilised",True
+10004,Paris FC,·········■,1,1,0,1,1,Not classified yet,"Promoted, only 1 L1 season(s) so far",False

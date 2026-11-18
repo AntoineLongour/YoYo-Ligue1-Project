@@ -1,0 +1,113 @@
+Window 2016/17 to 2025/26: 194 Ligue 1 club-seasons | promotion events in the panel: 34
+                          count   25%   50%   75%
+group                                            
+Promoted (1st season up)   25.0  0.36  0.44  0.49
+Established, bottom half   75.0  0.64  0.76  0.96
+Established, top half      94.0  1.24  1.98  3.06
+
+Median promoted club: 0.44 x the median Ligue 1 club, i.e. 58% of the median established bottom-half club.
+Probability a random bottom-half established club out-values a random promoted club: 93% (Mann-Whitney p = 0.000)
+[chart saved: outputs/figures/fig_a_tier_cliff.png]
+Doubling the squad value index goes with +0.28 points per game (R² = 0.59: squad value explains 59% of the differences in PPG).
+Rank correlation with results (within-season percentile): squad value 0.73 (p = 0.000) vs net spend 0.16 (p = 0.029)
+
+Biggest over-performers (points per game above what their squad value predicts)
+             club  season                   cohort  squad_value_index  ppg  ppg_expected  ppg_vs_expected
+ Clermont Foot 63 2022/23 Promoted, then relegated               0.22 1.55          0.71             0.84
+          RC Lens 2025/26           Stable Ligue 1               0.80 2.06          1.22             0.83
+          RC Lens 2022/23           Stable Ligue 1               1.23 2.21          1.40             0.82
+Stade Brestois 29 2023/24           Stable Ligue 1               0.68 1.79          1.16             0.64
+       LOSC Lille 2018/19           Stable Ligue 1               1.07 1.97          1.34             0.63
+
+Biggest under-performers
+           club  season              cohort  squad_value_index  ppg  ppg_expected  ppg_vs_expected
+      AS Monaco 2018/19      Stable Ligue 1               3.45 0.95          1.81            -0.86
+    FC Toulouse 2019/20               Yo-Yo               0.81 0.46          1.23            -0.76
+Montpellier HSC 2024/25 Fallen from Ligue 1               0.68 0.47          1.16            -0.68
+    FC Toulouse 2017/18               Yo-Yo               1.91 0.97          1.57            -0.60
+     Angers SCO 2022/23               Yo-Yo               0.53 0.47          1.06            -0.58
+[chart saved: outputs/figures/fig_b_capital_efficiency.png]
+                          club_seasons  squad_value_index  ppg_vs_expected  avg_age  turnover_index  preseason_net_spend_pctile
+cohort                                                                                                                         
+Stable Ligue 1                     105               1.88             0.05    26.08            1.04                        0.60
+Yo-Yo                               43               0.61            -0.01    26.11            0.98                        0.55
+Promoted, then relegated            23               0.53            -0.01    26.55            0.94                        0.50
+Fallen from Ligue 1                 22               0.87            -0.13    26.49            0.85                        0.38
+
+                       kpi  kruskal_p_4_cohorts  yoyo_vs_stable_p
+         squad_value_index                0.000             0.000
+           ppg_vs_expected                0.033             0.068
+                   avg_age                0.029             0.235
+            turnover_index                0.117             0.066
+preseason_net_spend_pctile                0.238             0.266
+[chart saved: outputs/figures/fig_c_cohort_profiles.png]
+Promotion events: 34 in total, 34 usable (0 with unknown outcome, 0 with valuation coverage < 80%) | seasons 2013/14 to 2025/26 | survived 23, relegated 11
+
+Which pre-season KPI separates survivors from relegated clubs? (AUC > 0.5: higher = safer)
+                           kpi  median_survived  median_relegated  auc  auc_90pct_low  auc_90pct_high  mann_whitney_p
+             Squad value index             0.45              0.45 0.64           0.46            0.80            0.21
+                   Average age            26.56             26.62 0.45           0.28            0.63            0.66
+                Turnover index             0.99              0.99 0.63           0.46            0.80            0.22
+Net spend pctile (full season)             0.75              0.56 0.78           0.64            0.90            0.01
+Net spend pctile (summer only)             0.72              0.60 0.73           0.59            0.87            0.03
+
+Robustness: same test on the 25 window promotions only (7 relegated)
+                           kpi  auc  auc_90pct_low  auc_90pct_high  mann_whitney_p
+             Squad value index 0.70           0.48            0.89            0.14
+                   Average age 0.41           0.21            0.63            0.53
+                Turnover index 0.60           0.35            0.82            0.50
+Net spend pctile (full season) 0.81           0.65            0.94            0.02
+Net spend pctile (summer only) 0.73           0.54            0.89            0.08
+
+Survival rate by third of squad value
+               events  survival_rate  value_from  value_to
+third                                                     
+Lowest third       12           0.58        0.17      0.40
+Middle third       11           0.64        0.40      0.47
+Highest third      11           0.82        0.48      3.55
+[chart saved: outputs/figures/fig_d_survival_squad_value.png]
+
+Best in-sample squad value threshold: index >= 0.49 -> survival 100% (n = 8) vs 58% below (n = 26)
+Bootstrap: the best threshold moves between 0.32 and 0.49 (90% range, median 0.48). A wide range means the exact cut-off is not reliable, even if the direction is.
+
+Survival rate by third of summer net spend
+               events  survival_rate  value_from  value_to
+third                                                     
+Lowest third       12           0.58        0.25      0.57
+Middle third       11           0.55        0.60      0.78
+Highest third      11           0.91        0.78      1.00
+[chart saved: outputs/figures/fig_e_survival_summer_spend.png]
+
+Survival rate by summer net spend (above vs below the median promoted club)
+                                         events  survival_rate
+spend_half                                                    
+Summer net spend: above promoted median      17           0.88
+Summer net spend: below promoted median      17           0.47
+
+Survival rate: squad value x summer spending (small cells: indicative only)
+spend_half                         Summer net spend: above promoted median Summer net spend: below promoted median
+value_half                                                                                                        
+Squad value: above promoted median                              100% (n=9)                               38% (n=8)
+Squad value: below promoted median                               75% (n=8)                               56% (n=9)
+
+Surprises: weakest squads that stayed up
+ season             club  squad_value_index  preseason_net_spend_pctile  turnover_index  rank
+2024/25       Angers SCO               0.21                        0.50            0.98    14
+2021/22 Clermont Foot 63               0.29                        0.62            0.56    17
+2013/14      EA Guingamp               0.32                        0.25            0.00    16
+Surprises: strongest squads that went down
+ season         club  squad_value_index  preseason_net_spend_pctile  turnover_index  rank
+2014/15      RC Lens               0.48                        0.60            0.00    20
+2025/26      FC Metz               0.48                        0.61            1.32    18
+2017/18 ESTAC Troyes               0.47                        0.57            0.01    19
+KEY NUMBERS
+- Tier cliff: median promoted club starts at 0.44x the median Ligue 1 squad (58% of an established bottom-half club).
+- Efficiency: doubling squad value = +0.28 PPG; value explains 59% of PPG differences. Rank correlation with results: value 0.73, net spend 0.16.
+- Survival, 34 promotions (11 relegated):
+    Squad value index                all: AUC 0.64 (90% CI 0.46-0.80, p = 0.211) | window only: AUC 0.70 (90% CI 0.48-0.89, p = 0.141)
+    Average age                      all: AUC 0.45 (90% CI 0.28-0.63, p = 0.659) | window only: AUC 0.41 (90% CI 0.21-0.63, p = 0.534)
+    Turnover index                   all: AUC 0.63 (90% CI 0.46-0.80, p = 0.217) | window only: AUC 0.60 (90% CI 0.35-0.82, p = 0.495)
+    Net spend pctile (full season)   all: AUC 0.78 (90% CI 0.64-0.90, p = 0.010) | window only: AUC 0.81 (90% CI 0.65-0.94, p = 0.020)
+    Net spend pctile (summer only)   all: AUC 0.73 (90% CI 0.59-0.87, p = 0.032) | window only: AUC 0.73 (90% CI 0.54-0.89, p = 0.084)
+- Squad value threshold: best in-sample 0.49, bootstrap 90% range 0.32-0.49.
+- Summer spending: Summer net spend: above promoted median 88% (n=17), Summer net spend: below promoted median 47% (n=17)

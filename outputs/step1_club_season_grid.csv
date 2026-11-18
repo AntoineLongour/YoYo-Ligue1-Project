@@ -1,0 +1,321 @@
+club_id,season,in_l1,club,cohort
+40,2016,1,FC Girondins Bordeaux,Fallen from Ligue 1
+40,2017,1,FC Girondins Bordeaux,Fallen from Ligue 1
+40,2018,1,FC Girondins Bordeaux,Fallen from Ligue 1
+40,2019,1,FC Girondins Bordeaux,Fallen from Ligue 1
+40,2020,1,FC Girondins Bordeaux,Fallen from Ligue 1
+40,2021,1,FC Girondins Bordeaux,Fallen from Ligue 1
+40,2022,0,FC Girondins Bordeaux,Fallen from Ligue 1
+40,2023,0,FC Girondins Bordeaux,Fallen from Ligue 1
+40,2024,0,FC Girondins Bordeaux,Fallen from Ligue 1
+40,2025,0,FC Girondins Bordeaux,Fallen from Ligue 1
+162,2016,1,AS Monaco,Stable Ligue 1
+162,2017,1,AS Monaco,Stable Ligue 1
+162,2018,1,AS Monaco,Stable Ligue 1
+162,2019,1,AS Monaco,Stable Ligue 1
+162,2020,1,AS Monaco,Stable Ligue 1
+162,2021,1,AS Monaco,Stable Ligue 1
+162,2022,1,AS Monaco,Stable Ligue 1
+162,2023,1,AS Monaco,Stable Ligue 1
+162,2024,1,AS Monaco,Stable Ligue 1
+162,2025,1,AS Monaco,Stable Ligue 1
+244,2016,1,Olympique Marseille,Stable Ligue 1
+244,2017,1,Olympique Marseille,Stable Ligue 1
+244,2018,1,Olympique Marseille,Stable Ligue 1
+244,2019,1,Olympique Marseille,Stable Ligue 1
+244,2020,1,Olympique Marseille,Stable Ligue 1
+244,2021,1,Olympique Marseille,Stable Ligue 1
+244,2022,1,Olympique Marseille,Stable Ligue 1
+244,2023,1,Olympique Marseille,Stable Ligue 1
+244,2024,1,Olympique Marseille,Stable Ligue 1
+244,2025,1,Olympique Marseille,Stable Ligue 1
+273,2016,1,Stade Rennais FC,Stable Ligue 1
+273,2017,1,Stade Rennais FC,Stable Ligue 1
+273,2018,1,Stade Rennais FC,Stable Ligue 1
+273,2019,1,Stade Rennais FC,Stable Ligue 1
+273,2020,1,Stade Rennais FC,Stable Ligue 1
+273,2021,1,Stade Rennais FC,Stable Ligue 1
+273,2022,1,Stade Rennais FC,Stable Ligue 1
+273,2023,1,Stade Rennais FC,Stable Ligue 1
+273,2024,1,Stade Rennais FC,Stable Ligue 1
+273,2025,1,Stade Rennais FC,Stable Ligue 1
+290,2016,0,AJ Auxerre,Yo-Yo
+290,2017,0,AJ Auxerre,Yo-Yo
+290,2018,0,AJ Auxerre,Yo-Yo
+290,2019,0,AJ Auxerre,Yo-Yo
+290,2020,0,AJ Auxerre,Yo-Yo
+290,2021,0,AJ Auxerre,Yo-Yo
+290,2022,1,AJ Auxerre,Yo-Yo
+290,2023,0,AJ Auxerre,Yo-Yo
+290,2024,1,AJ Auxerre,Yo-Yo
+290,2025,1,AJ Auxerre,Yo-Yo
+347,2016,1,FC Metz,Yo-Yo
+347,2017,1,FC Metz,Yo-Yo
+347,2018,0,FC Metz,Yo-Yo
+347,2019,1,FC Metz,Yo-Yo
+347,2020,1,FC Metz,Yo-Yo
+347,2021,1,FC Metz,Yo-Yo
+347,2022,0,FC Metz,Yo-Yo
+347,2023,1,FC Metz,Yo-Yo
+347,2024,0,FC Metz,Yo-Yo
+347,2025,1,FC Metz,Yo-Yo
+415,2016,1,FC Toulouse,Yo-Yo
+415,2017,1,FC Toulouse,Yo-Yo
+415,2018,1,FC Toulouse,Yo-Yo
+415,2019,1,FC Toulouse,Yo-Yo
+415,2020,0,FC Toulouse,Yo-Yo
+415,2021,0,FC Toulouse,Yo-Yo
+415,2022,1,FC Toulouse,Yo-Yo
+415,2023,1,FC Toulouse,Yo-Yo
+415,2024,1,FC Toulouse,Yo-Yo
+415,2025,1,FC Toulouse,Yo-Yo
+417,2016,1,OGC Nice,Stable Ligue 1
+417,2017,1,OGC Nice,Stable Ligue 1
+417,2018,1,OGC Nice,Stable Ligue 1
+417,2019,1,OGC Nice,Stable Ligue 1
+417,2020,1,OGC Nice,Stable Ligue 1
+417,2021,1,OGC Nice,Stable Ligue 1
+417,2022,1,OGC Nice,Stable Ligue 1
+417,2023,1,OGC Nice,Stable Ligue 1
+417,2024,1,OGC Nice,Stable Ligue 1
+417,2025,1,OGC Nice,Stable Ligue 1
+583,2016,1,Paris Saint-Germain,Stable Ligue 1
+583,2017,1,Paris Saint-Germain,Stable Ligue 1
+583,2018,1,Paris Saint-Germain,Stable Ligue 1
+583,2019,1,Paris Saint-Germain,Stable Ligue 1
+583,2020,1,Paris Saint-Germain,Stable Ligue 1
+583,2021,1,Paris Saint-Germain,Stable Ligue 1
+583,2022,1,Paris Saint-Germain,Stable Ligue 1
+583,2023,1,Paris Saint-Germain,Stable Ligue 1
+583,2024,1,Paris Saint-Germain,Stable Ligue 1
+583,2025,1,Paris Saint-Germain,Stable Ligue 1
+595,2016,1,SC Bastia,Fallen from Ligue 1
+595,2017,0,SC Bastia,Fallen from Ligue 1
+595,2018,0,SC Bastia,Fallen from Ligue 1
+595,2019,0,SC Bastia,Fallen from Ligue 1
+595,2020,0,SC Bastia,Fallen from Ligue 1
+595,2021,0,SC Bastia,Fallen from Ligue 1
+595,2022,0,SC Bastia,Fallen from Ligue 1
+595,2023,0,SC Bastia,Fallen from Ligue 1
+595,2024,0,SC Bastia,Fallen from Ligue 1
+595,2025,0,SC Bastia,Fallen from Ligue 1
+618,2016,1,AS Saint-Étienne,Yo-Yo
+618,2017,1,AS Saint-Étienne,Yo-Yo
+618,2018,1,AS Saint-Étienne,Yo-Yo
+618,2019,1,AS Saint-Étienne,Yo-Yo
+618,2020,1,AS Saint-Étienne,Yo-Yo
+618,2021,1,AS Saint-Étienne,Yo-Yo
+618,2022,0,AS Saint-Étienne,Yo-Yo
+618,2023,0,AS Saint-Étienne,Yo-Yo
+618,2024,1,AS Saint-Étienne,Yo-Yo
+618,2025,0,AS Saint-Étienne,Yo-Yo
+667,2016,0,RC Strasbourg Alsace,Stable Ligue 1
+667,2017,1,RC Strasbourg Alsace,Stable Ligue 1
+667,2018,1,RC Strasbourg Alsace,Stable Ligue 1
+667,2019,1,RC Strasbourg Alsace,Stable Ligue 1
+667,2020,1,RC Strasbourg Alsace,Stable Ligue 1
+667,2021,1,RC Strasbourg Alsace,Stable Ligue 1
+667,2022,1,RC Strasbourg Alsace,Stable Ligue 1
+667,2023,1,RC Strasbourg Alsace,Stable Ligue 1
+667,2024,1,RC Strasbourg Alsace,Stable Ligue 1
+667,2025,1,RC Strasbourg Alsace,Stable Ligue 1
+738,2016,0,Le Havre AC,Stable Ligue 1
+738,2017,0,Le Havre AC,Stable Ligue 1
+738,2018,0,Le Havre AC,Stable Ligue 1
+738,2019,0,Le Havre AC,Stable Ligue 1
+738,2020,0,Le Havre AC,Stable Ligue 1
+738,2021,0,Le Havre AC,Stable Ligue 1
+738,2022,0,Le Havre AC,Stable Ligue 1
+738,2023,1,Le Havre AC,Stable Ligue 1
+738,2024,1,Le Havre AC,Stable Ligue 1
+738,2025,1,Le Havre AC,Stable Ligue 1
+826,2016,0,RC Lens,Stable Ligue 1
+826,2017,0,RC Lens,Stable Ligue 1
+826,2018,0,RC Lens,Stable Ligue 1
+826,2019,0,RC Lens,Stable Ligue 1
+826,2020,1,RC Lens,Stable Ligue 1
+826,2021,1,RC Lens,Stable Ligue 1
+826,2022,1,RC Lens,Stable Ligue 1
+826,2023,1,RC Lens,Stable Ligue 1
+826,2024,1,RC Lens,Stable Ligue 1
+826,2025,1,RC Lens,Stable Ligue 1
+855,2016,1,EA Guingamp,Fallen from Ligue 1
+855,2017,1,EA Guingamp,Fallen from Ligue 1
+855,2018,1,EA Guingamp,Fallen from Ligue 1
+855,2019,0,EA Guingamp,Fallen from Ligue 1
+855,2020,0,EA Guingamp,Fallen from Ligue 1
+855,2021,0,EA Guingamp,Fallen from Ligue 1
+855,2022,0,EA Guingamp,Fallen from Ligue 1
+855,2023,0,EA Guingamp,Fallen from Ligue 1
+855,2024,0,EA Guingamp,Fallen from Ligue 1
+855,2025,0,EA Guingamp,Fallen from Ligue 1
+969,2016,1,Montpellier HSC,Fallen from Ligue 1
+969,2017,1,Montpellier HSC,Fallen from Ligue 1
+969,2018,1,Montpellier HSC,Fallen from Ligue 1
+969,2019,1,Montpellier HSC,Fallen from Ligue 1
+969,2020,1,Montpellier HSC,Fallen from Ligue 1
+969,2021,1,Montpellier HSC,Fallen from Ligue 1
+969,2022,1,Montpellier HSC,Fallen from Ligue 1
+969,2023,1,Montpellier HSC,Fallen from Ligue 1
+969,2024,1,Montpellier HSC,Fallen from Ligue 1
+969,2025,0,Montpellier HSC,Fallen from Ligue 1
+995,2016,1,FC Nantes,Stable Ligue 1
+995,2017,1,FC Nantes,Stable Ligue 1
+995,2018,1,FC Nantes,Stable Ligue 1
+995,2019,1,FC Nantes,Stable Ligue 1
+995,2020,1,FC Nantes,Stable Ligue 1
+995,2021,1,FC Nantes,Stable Ligue 1
+995,2022,1,FC Nantes,Stable Ligue 1
+995,2023,1,FC Nantes,Stable Ligue 1
+995,2024,1,FC Nantes,Stable Ligue 1
+995,2025,1,FC Nantes,Stable Ligue 1
+1041,2016,1,Olympique Lyon,Stable Ligue 1
+1041,2017,1,Olympique Lyon,Stable Ligue 1
+1041,2018,1,Olympique Lyon,Stable Ligue 1
+1041,2019,1,Olympique Lyon,Stable Ligue 1
+1041,2020,1,Olympique Lyon,Stable Ligue 1
+1041,2021,1,Olympique Lyon,Stable Ligue 1
+1041,2022,1,Olympique Lyon,Stable Ligue 1
+1041,2023,1,Olympique Lyon,Stable Ligue 1
+1041,2024,1,Olympique Lyon,Stable Ligue 1
+1041,2025,1,Olympique Lyon,Stable Ligue 1
+1082,2016,1,LOSC Lille,Stable Ligue 1
+1082,2017,1,LOSC Lille,Stable Ligue 1
+1082,2018,1,LOSC Lille,Stable Ligue 1
+1082,2019,1,LOSC Lille,Stable Ligue 1
+1082,2020,1,LOSC Lille,Stable Ligue 1
+1082,2021,1,LOSC Lille,Stable Ligue 1
+1082,2022,1,LOSC Lille,Stable Ligue 1
+1082,2023,1,LOSC Lille,Stable Ligue 1
+1082,2024,1,LOSC Lille,Stable Ligue 1
+1082,2025,1,LOSC Lille,Stable Ligue 1
+1095,2016,0,ESTAC Troyes,Yo-Yo
+1095,2017,1,ESTAC Troyes,Yo-Yo
+1095,2018,0,ESTAC Troyes,Yo-Yo
+1095,2019,0,ESTAC Troyes,Yo-Yo
+1095,2020,0,ESTAC Troyes,Yo-Yo
+1095,2021,1,ESTAC Troyes,Yo-Yo
+1095,2022,1,ESTAC Troyes,Yo-Yo
+1095,2023,0,ESTAC Troyes,Yo-Yo
+1095,2024,0,ESTAC Troyes,Yo-Yo
+1095,2025,0,ESTAC Troyes,Yo-Yo
+1147,2016,0,AC Ajaccio,"Promoted, then relegated"
+1147,2017,0,AC Ajaccio,"Promoted, then relegated"
+1147,2018,0,AC Ajaccio,"Promoted, then relegated"
+1147,2019,0,AC Ajaccio,"Promoted, then relegated"
+1147,2020,0,AC Ajaccio,"Promoted, then relegated"
+1147,2021,0,AC Ajaccio,"Promoted, then relegated"
+1147,2022,1,AC Ajaccio,"Promoted, then relegated"
+1147,2023,0,AC Ajaccio,"Promoted, then relegated"
+1147,2024,0,AC Ajaccio,"Promoted, then relegated"
+1147,2025,0,AC Ajaccio,"Promoted, then relegated"
+1158,2016,1,FC Lorient,Yo-Yo
+1158,2017,0,FC Lorient,Yo-Yo
+1158,2018,0,FC Lorient,Yo-Yo
+1158,2019,0,FC Lorient,Yo-Yo
+1158,2020,1,FC Lorient,Yo-Yo
+1158,2021,1,FC Lorient,Yo-Yo
+1158,2022,1,FC Lorient,Yo-Yo
+1158,2023,1,FC Lorient,Yo-Yo
+1158,2024,0,FC Lorient,Yo-Yo
+1158,2025,1,FC Lorient,Yo-Yo
+1159,2016,1,AS Nancy-Lorraine,"Promoted, then relegated"
+1159,2017,0,AS Nancy-Lorraine,"Promoted, then relegated"
+1159,2018,0,AS Nancy-Lorraine,"Promoted, then relegated"
+1159,2019,0,AS Nancy-Lorraine,"Promoted, then relegated"
+1159,2020,0,AS Nancy-Lorraine,"Promoted, then relegated"
+1159,2021,0,AS Nancy-Lorraine,"Promoted, then relegated"
+1159,2022,0,AS Nancy-Lorraine,"Promoted, then relegated"
+1159,2023,0,AS Nancy-Lorraine,"Promoted, then relegated"
+1159,2024,0,AS Nancy-Lorraine,"Promoted, then relegated"
+1159,2025,0,AS Nancy-Lorraine,"Promoted, then relegated"
+1160,2016,0,Nîmes Olympique,"Promoted, then relegated"
+1160,2017,0,Nîmes Olympique,"Promoted, then relegated"
+1160,2018,1,Nîmes Olympique,"Promoted, then relegated"
+1160,2019,1,Nîmes Olympique,"Promoted, then relegated"
+1160,2020,1,Nîmes Olympique,"Promoted, then relegated"
+1160,2021,0,Nîmes Olympique,"Promoted, then relegated"
+1160,2022,0,Nîmes Olympique,"Promoted, then relegated"
+1160,2023,0,Nîmes Olympique,"Promoted, then relegated"
+1160,2024,0,Nîmes Olympique,"Promoted, then relegated"
+1160,2025,0,Nîmes Olympique,"Promoted, then relegated"
+1162,2016,1,SM Caen,Fallen from Ligue 1
+1162,2017,1,SM Caen,Fallen from Ligue 1
+1162,2018,1,SM Caen,Fallen from Ligue 1
+1162,2019,0,SM Caen,Fallen from Ligue 1
+1162,2020,0,SM Caen,Fallen from Ligue 1
+1162,2021,0,SM Caen,Fallen from Ligue 1
+1162,2022,0,SM Caen,Fallen from Ligue 1
+1162,2023,0,SM Caen,Fallen from Ligue 1
+1162,2024,0,SM Caen,Fallen from Ligue 1
+1162,2025,0,SM Caen,Fallen from Ligue 1
+1416,2016,0,Amiens SC,"Promoted, then relegated"
+1416,2017,1,Amiens SC,"Promoted, then relegated"
+1416,2018,1,Amiens SC,"Promoted, then relegated"
+1416,2019,1,Amiens SC,"Promoted, then relegated"
+1416,2020,0,Amiens SC,"Promoted, then relegated"
+1416,2021,0,Amiens SC,"Promoted, then relegated"
+1416,2022,0,Amiens SC,"Promoted, then relegated"
+1416,2023,0,Amiens SC,"Promoted, then relegated"
+1416,2024,0,Amiens SC,"Promoted, then relegated"
+1416,2025,0,Amiens SC,"Promoted, then relegated"
+1420,2016,1,Angers SCO,Yo-Yo
+1420,2017,1,Angers SCO,Yo-Yo
+1420,2018,1,Angers SCO,Yo-Yo
+1420,2019,1,Angers SCO,Yo-Yo
+1420,2020,1,Angers SCO,Yo-Yo
+1420,2021,1,Angers SCO,Yo-Yo
+1420,2022,1,Angers SCO,Yo-Yo
+1420,2023,0,Angers SCO,Yo-Yo
+1420,2024,1,Angers SCO,Yo-Yo
+1420,2025,1,Angers SCO,Yo-Yo
+1421,2016,0,Stade Reims,"Promoted, then relegated"
+1421,2017,0,Stade Reims,"Promoted, then relegated"
+1421,2018,1,Stade Reims,"Promoted, then relegated"
+1421,2019,1,Stade Reims,"Promoted, then relegated"
+1421,2020,1,Stade Reims,"Promoted, then relegated"
+1421,2021,1,Stade Reims,"Promoted, then relegated"
+1421,2022,1,Stade Reims,"Promoted, then relegated"
+1421,2023,1,Stade Reims,"Promoted, then relegated"
+1421,2024,1,Stade Reims,"Promoted, then relegated"
+1421,2025,0,Stade Reims,"Promoted, then relegated"
+2969,2016,1,Dijon FCO,"Promoted, then relegated"
+2969,2017,1,Dijon FCO,"Promoted, then relegated"
+2969,2018,1,Dijon FCO,"Promoted, then relegated"
+2969,2019,1,Dijon FCO,"Promoted, then relegated"
+2969,2020,1,Dijon FCO,"Promoted, then relegated"
+2969,2021,0,Dijon FCO,"Promoted, then relegated"
+2969,2022,0,Dijon FCO,"Promoted, then relegated"
+2969,2023,0,Dijon FCO,"Promoted, then relegated"
+2969,2024,0,Dijon FCO,"Promoted, then relegated"
+2969,2025,0,Dijon FCO,"Promoted, then relegated"
+3524,2016,0,Clermont Foot 63,"Promoted, then relegated"
+3524,2017,0,Clermont Foot 63,"Promoted, then relegated"
+3524,2018,0,Clermont Foot 63,"Promoted, then relegated"
+3524,2019,0,Clermont Foot 63,"Promoted, then relegated"
+3524,2020,0,Clermont Foot 63,"Promoted, then relegated"
+3524,2021,1,Clermont Foot 63,"Promoted, then relegated"
+3524,2022,1,Clermont Foot 63,"Promoted, then relegated"
+3524,2023,1,Clermont Foot 63,"Promoted, then relegated"
+3524,2024,0,Clermont Foot 63,"Promoted, then relegated"
+3524,2025,0,Clermont Foot 63,"Promoted, then relegated"
+3911,2016,0,Stade Brestois 29,Stable Ligue 1
+3911,2017,0,Stade Brestois 29,Stable Ligue 1
+3911,2018,0,Stade Brestois 29,Stable Ligue 1
+3911,2019,1,Stade Brestois 29,Stable Ligue 1
+3911,2020,1,Stade Brestois 29,Stable Ligue 1
+3911,2021,1,Stade Brestois 29,Stable Ligue 1
+3911,2022,1,Stade Brestois 29,Stable Ligue 1
+3911,2023,1,Stade Brestois 29,Stable Ligue 1
+3911,2024,1,Stade Brestois 29,Stable Ligue 1
+3911,2025,1,Stade Brestois 29,Stable Ligue 1
+10004,2016,0,Paris FC,Not classified yet
+10004,2017,0,Paris FC,Not classified yet
+10004,2018,0,Paris FC,Not classified yet
+10004,2019,0,Paris FC,Not classified yet
+10004,2020,0,Paris FC,Not classified yet
+10004,2021,0,Paris FC,Not classified yet
+10004,2022,0,Paris FC,Not classified yet
+10004,2023,0,Paris FC,Not classified yet
+10004,2024,0,Paris FC,Not classified yet
+10004,2025,1,Paris FC,Not classified yet
